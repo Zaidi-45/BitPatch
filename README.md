@@ -34,4 +34,4 @@ Looking to host a server or mod the game? Check out our official guides:
 * [IGI-2 Modding & Cut Content Hub](https://reviveigi2.com/igi2-modding.html)
 
 ---
-*Developed and maintained by the Bitmasters Network (2012-2026).*
+*Developed and maintained by the Bitmasters (2012-2026).*
