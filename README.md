@@ -1,13 +1,13 @@
 # BitPatch for IGI-2: Covert Strike
 
-[![Version](https://img.shields.io/badge/Version-BIT--1.0-blue.svg)](https://reviveigi2.com/changelog.html)
-[![Website](https://img.shields.io/badge/Website-Bitmasters-success.svg)](https://reviveigi2.com)
+[![Version](https://img.shields.io/badge/Version-BIT--1.0-blue.svg)](https://discord.gg/dvwcbGVeyV)
+[![Discord](https://img.shields.io/badge/Discord-Bitmasters-7289da.svg)](https://discord.gg/dvwcbGVeyV)
 
-**Official Website & Multiplayer Download:** [Bitmasters Network](https://reviveigi2.com)
+**Official Community & Multiplayer Support:** [Join the Bitmasters Discord](https://discord.gg/dvwcbGVeyV)
 
 **BitPatch** is the premier, GOG-compliant multiplayer installer and client update for *Project I.G.I. 2: Covert Strike*. Following the shutdown of GameSpy and Qtracker, BitPatch securely restores the in-game server browser via the **OpenSpy** master server network, allowing players to host dedicated servers and play online.
 
-*(Note: The executable binaries for BitPatch v1.0 will be uploaded to this repository upon final release. For now, please visit the [official website](https://reviveigi2.com) for updates.)*
+*(Note: The executable binaries for BitPatch v1.0 will be uploaded to this repository upon final release. For full installation guides and server support, please join our Discord community.)*
 
 ## Core Features
 
