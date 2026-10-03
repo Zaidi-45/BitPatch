@@ -33,5 +33,13 @@ Looking to host a server or mod the game? Check out our official guides:
 * [IGI-2 Global Leaderboard](https://reviveigi2.com/leaderboard.html)
 * [IGI-2 Modding & Cut Content Hub](https://reviveigi2.com/igi2-modding.html)
 
+## 🛒 Required Game Version
+This patch is fully compatible and heavily optimized for the official [GOG.com release of I.G.I. 2: Covert Strike](https://www.gog.com/en/game/i_g_i_2_covert_strike). We highly recommend using a clean, unmodified GOG installation to avoid file conflicts.
+
+## ⚖️ License & Attribution
+This project is licensed under the **MIT License**. 
+
+**Attribution Requirement:** You are completely free to use, modify, and distribute this patch or its components for your own servers and modding projects. However, you **MUST** provide clear, visible credit to **Team Bitmasters** and include a direct link back to the official [Bitmasters Website](https://reviveigi2.com) or this GitHub repository. Claiming this work as your own is strictly prohibited.
+
 ---
 *Developed and maintained by the Bitmasters (2012-2026).*
