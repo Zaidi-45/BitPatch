@@ -3,9 +3,7 @@
 [![Version](https://img.shields.io/badge/Version-BIT--1.0-blue.svg)](https://discord.gg/dvwcbGVeyV)
 [![Discord](https://img.shields.io/badge/Discord-Bitmasters-7289da.svg)](https://discord.gg/dvwcbGVeyV)
 
-**Official Community & Multiplayer Support:** [Join the Bitmasters Discord](https://discord.gg/dvwcbGVeyV)
-
-**BitPatch** is the premier, GOG-compliant multiplayer installer and client update for *Project I.G.I. 2: Covert Strike*. Following the shutdown of GameSpy and Qtracker, BitPatch securely restores the in-game server browser via the **OpenSpy** master server network, allowing players to host dedicated servers and play online.
+**BitPatch** is the premier, GOG-compliant multiplayer patch and client update for *Project I.G.I. 2: Covert Strike*. Following the shutdown of GameSpy and Qtracker, BitPatch securely restores the in-game server browser via the **OpenSpy** master server network, allowing players to host dedicated servers and play online.
 
 *(Note: The executable binaries for BitPatch v1.0 will be uploaded to this repository upon final release. For full installation guides and server support, please join our Discord community.)*
 
@@ -17,15 +15,16 @@
 - **Server Exploit Protection:** Fixes Luigi Auriemma vulnerabilities (gshboom, format string attacks, fake player floods).
 
 ### ⚙️ Anti-Crash & Stability
+- Fixes Weapon Limit for all map using FIFO queue approach.
 - Resolves persistent CD authentication failures.
 - Fixes death animation desyncs, null pointer reads, and ghost entity cascades.
 - Patches floating-point triggers and Z-coordinate limits that cause dedicated server crashes.
 
 ### 🎮 Client Enhancements
 - 100% compatible with the official GOG release.
-- Unlocked ability to shoot while submerged in water.
 - Third-person and free-camera modes (Left Alt + Right Alt).
 - Restored original *Project I.G.I.* animated menu system.
+- Unlocked ability to shoot while submerged in water.
 
 ## Support & Modding
 
