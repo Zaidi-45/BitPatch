@@ -18,7 +18,7 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 1. Download **`BitPatch-v1.0.zip`** from the official [Releases Tab](https://github.com/Zaidi-45/BitPatch/releases/latest).
 2. Extract all contents of the `.zip` archive directly into your main IGI-2 game folder (where `igi2.exe` is located).
 3. Allow Windows to overwrite existing files when prompted.
-4. Launch `igi2.exe` normally and navigate to **Multiplayer** — servers will populate automatically via OpenSpy.
+4. Launch `igi2.exe` normally and navigate to **Multiplayer** and servers will populate automatically via OpenSpy masterserver.
 
 ---
 
@@ -26,12 +26,11 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 
 ### 🛡️ Anti-Cheat & Security
 - **Exploit Blocking:** Patches known trainer exploits including Invisible Mode, Fast Lockpick, Super Jump, Rapid Fire, Infinite Ammo, and Deviance.
-- **Thermal Hack Prevention:** Completely eliminates modified thermal rifle wallhacks.
+- **Thermal Hack Prevention:** Completely eliminates modified thermal wallhacks.
 - **Server Exploit Protection:** Mitigates Luigi Auriemma vulnerabilities (gshboom, format string attacks, fake player floods).
 
 ### ⚙️ Anti-Crash & Stability
 - **Weapon Limit Fix:** Resolves weapon limits across all maps using an internal FIFO queue architecture.
-- **Authentication Fixes:** Resolves persistent CD authentication loops.
 - **Desynchronization Fixes:** Patches death animation desyncs, null pointer reads, and ghost entity cascading crashes.
 - **Server Stability:** Fixes floating-point triggers and Z-coordinate limits that crash dedicated servers.
 
