@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/Release-v1.0%20Latest-brightgreen.svg)](https://github.com/Zaidi-45/BitPatch/releases/latest)
 [![Website](https://img.shields.io/badge/Website-reviveigi2.com-blue.svg)](https://reviveigi2.com)
 [![Discord](https://img.shields.io/badge/Discord-Bitmasters-7289da.svg)](https://discord.gg/dvwcbGVeyV)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary%20Freeware-red.svg)](EULA.md)
 
 **BitPatch** is the premier, GOG-compliant multiplayer patch and engine wrapper for *Project I.G.I.-2: Covert Strike*. Following the shutdown of GameSpy and Qtracker, BitPatch safely hooks into the game engine via a local `wsock32.dll` to restore in-game server browsing through the active **OpenSpy** master server, while providing essential stability fixes for modern 64-bit operating systems (Windows 10 & Windows 11).
 
@@ -52,19 +52,19 @@ This patch is fully compatible and heavily optimized for the official [GOG.com r
 
 Looking to host a dedicated server, view live global player leaderboards, or download community map packs?
 
-* **Web Portal:** [reviveigi2.com](https://reviveigi2.com)
-* **Forum:** [reviveigi2.com/forum.html](https://reviveigi2.com/forum.html)
-* **Discord Server:** [Bitmasters Official Discord](https://discord.gg/dvwcbGVeyV)
+- **Web Portal:** [reviveigi2.com](https://reviveigi2.com)
+- **Forum:** [reviveigi2.com/forum.html](https://reviveigi2.com/forum.html)
+- **Discord Server:** [Bitmasters Official Discord](https://discord.gg/dvwcbGVeyV)
 
 ---
 
 ## ⚖️ License & Legal
 
-This repository configuration is licensed under the **MIT License**.
+BitPatch binaries and configurations are proprietary freeware distributed under the terms of the [BitPatch End User License Agreement (EULA)](EULA.md).
 
 **Legal Disclaimer:** Project I.G.I.-2: Covert Strike is the registered trademark of its respective copyright holders. BitPatch is an independent community restoration project and is not affiliated with, sponsored by, or endorsed by Innerloop Studios, Codemasters, or GOG. This repository contains no base game executable binaries or proprietary level packages.
 
-**Attribution Requirement:** You are free to utilize and reference this patch for community servers and modding initiatives. However, you **MUST** provide clear, visible credit to **Team Bitmasters** and include a direct link back to [reviveigi2.com](https://reviveigi2.com) or this GitHub repository. Claiming this work as your own is strictly prohibited.
+**Attribution & Usage Policy:** You are free to utilize and reference this patch for community servers and modding initiatives. However, you **MUST** provide clear, visible credit to **Team Bitmasters** and include a direct link back to [reviveigi2.com](https://reviveigi2.com) or this GitHub repository. Decompiling, reverse engineering, bypassing anti-cheat modules, or re-uploading modified binaries under another name is strictly prohibited.
 
 ---
 *Developed and maintained by Team Bitmasters (2012–2026).*
