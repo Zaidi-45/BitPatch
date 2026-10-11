@@ -53,7 +53,7 @@ This patch is fully compatible and heavily optimized for the official [GOG.com r
 Looking to host a dedicated server, view live global player leaderboards, or download community map packs?
 
 - **Web Portal:** [reviveigi2.com](https://reviveigi2.com)
-- **Forum:** [reviveigi2.com/forum.html](https://reviveigi2.com/forum.html)
+- **ModDB:** [moddb.com/mods/igi2-multiplayer-bitpatch](https://www.moddb.com/mods/igi2-multiplayer-bitpatch)
 - **Discord Server:** [Bitmasters Official Discord](https://discord.gg/dvwcbGVeyV)
 
 ---
