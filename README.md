@@ -53,24 +53,22 @@ This patch is fully compatible and heavily optimized for the official [GOG.com r
 Looking to host a dedicated server, view live global player leaderboards, or download community map packs?
 
 - **Web Portal:** [reviveigi2.com](https://reviveigi2.com)
-- **ModDB Page:** [ModDB BitPatch](https://www.moddb.com/mods/igi2-multiplayer-bitpatch)
+- **ModDB Webpage:** [ModDB BitPatch](https://www.moddb.com/mods/igi2-multiplayer-bitpatch)
 
 <br />
 
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="480">
-        <a href="https://discord.gg/dvwcbGVeyV">
-          <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="42" alt="Discord" />
-        </a>
-        <br />
+      <td align="center" width="370">
         <br />
         <a href="https://discord.gg/dvwcbGVeyV">
+          <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="68" alt="Discord" />
+          <br /><br />
           <b><font size="4">Join the Official Bitmasters Community</font></b>
         </a>
         <br />
-        <sub>Daily Matches · Dedicated Server Guides · Live Support</sub>
+        <p>Discord · Matchmaking · Live Support</p>
       </td>
     </tr>
   </table>
