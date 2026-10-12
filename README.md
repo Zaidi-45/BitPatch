@@ -5,6 +5,10 @@
 [![Discord](https://img.shields.io/badge/Discord-Bitmasters-7289da.svg)](https://discord.gg/dvwcbGVeyV)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary%20Freeware-red.svg)](EULA.md)
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1800&color=6090EE&center=true&vCenter=true&width=600&height=60&lines=BITMASTERS%E2%84%A2;BACK+TO+NOSTALGIA" alt="Bitmasters Motto" />
+</p>
+
 **BitPatch** is the premier, GOG-compliant multiplayer patch and engine wrapper for *Project I.G.I.-2: Covert Strike*. Following the shutdown of GameSpy and Qtracker, BitPatch safely hooks into the game engine via a local `wsock32.dll` to restore in-game server browsing through the active **OpenSpy** master server, while providing essential stability fixes for modern 64-bit operating systems (Windows 10 & Windows 11).
 
 Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
