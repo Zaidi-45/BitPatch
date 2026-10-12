@@ -18,7 +18,7 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 1. Download **`BitPatch-v1.0.zip`** from the official [Releases Tab](https://github.com/Zaidi-45/BitPatch/releases/latest).
 2. Extract all contents of the `.zip` archive directly into your main IGI-2 game folder (where `igi2.exe` is located).
 3. Allow Windows to overwrite existing files when prompted.
-4. Launch `igi2.exe` normally and navigate to **Multiplayer** and servers will populate automatically via OpenSpy masterserver.
+4. Launch `igi2.exe` normally, navigate to **Multiplayer**, and servers will populate automatically via the OpenSpy master server.
 
 ---
 
@@ -53,7 +53,7 @@ This patch is fully compatible and heavily optimized for the official [GOG.com r
 Looking to host a dedicated server, view live global player leaderboards, or download community map packs?
 
 - **Web Portal:** [reviveigi2.com](https://reviveigi2.com)
-- **ModDB:** [Moddb Page](https://www.moddb.com/mods/igi2-multiplayer-bitpatch)
+- **ModDB:** [ModDB Page](https://www.moddb.com/mods/igi2-multiplayer-bitpatch)
 - **Discord Server:** [Bitmasters Official Discord](https://discord.gg/dvwcbGVeyV)
 
 ---
@@ -62,7 +62,9 @@ Looking to host a dedicated server, view live global player leaderboards, or dow
 
 BitPatch binaries and configurations are proprietary freeware distributed under the terms of the [BitPatch End User License Agreement (EULA)](EULA.md).
 
-**Legal Disclaimer:** Project I.G.I.-2: Covert Strike is the registered trademark of its respective copyright holders. BitPatch is an independent community restoration project and is not affiliated with, sponsored by, or endorsed by Innerloop Studios, Codemasters, or GOG. This repository contains no base game executable binaries or proprietary level packages.
+> **Note on Source Code:** BitPatch is closed source to protect the integrity of the anti-cheat verification routines and maintain fair multiplayer server environments.
+
+**Legal Disclaimer:** Project I.G.I.-2: Covert Strike is the registered trademark of its respective copyright holders. BitPatch is an independent community restoration project and is not affiliated with, sponsored by, or endorsed by Innerloop Studios, Codemasters, or GOG. This repository contains no base game executable binaries or proprietary level packages. See [DISCLAIMER.md](DISCLAIMER.md) for full terms.
 
 **Attribution & Usage Policy:** You are free to utilize and reference this patch for community servers and modding initiatives. However, you **MUST** provide clear, visible credit to **Team Bitmasters** and include a direct link back to [reviveigi2.com](https://reviveigi2.com) or this GitHub repository. Decompiling, reverse engineering, bypassing anti-cheat modules, or re-uploading modified binaries under another name is strictly prohibited.
 
