@@ -56,8 +56,22 @@ This patch is fully compatible and heavily optimized for the official [GOG.com r
 
 Looking to host a dedicated server, view live global player leaderboards, or download community map packs?
 
-- **Web Portal:** [reviveigi2.com](https://reviveigi2.com)
-- **ModDB Webpage:** [ModDB BitPatch](https://www.moddb.com/mods/igi2-multiplayer-bitpatch)
+<p align="center">
+  <a href="https://reviveigi2.com" target="_blank">
+    <img src="https://img.shields.io/badge/Website-0078D6?style=for-the-badge&logo=internetcomputer&logoColor=white" alt="Website" />
+  </a>&nbsp;
+  <a href="https://www.moddb.com/mods/igi2-multiplayer-bitpatch" target="_blank">
+    <img src="https://img.shields.io/badge/ModDB-B31010?style=for-the-badge&logo=modx&logoColor=white" alt="ModDB" />
+  </a>&nbsp;
+  <a href="https://www.facebook.com/BitmastersNetwork" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>&nbsp;
+  <a href="https://www.youtube.com/@bitmastersofficial" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+</p>
+
+<!-- Followed by your centered Discord card -->
 
 <br />
 
@@ -90,5 +104,10 @@ BitPatch binaries and configurations are proprietary freeware distributed under 
 
 **Attribution & Usage Policy:** You are free to utilize and reference this patch for community servers and modding initiatives. However, you **MUST** provide clear, visible credit to **Team Bitmasters** and include a direct link back to [reviveigi2.com](https://reviveigi2.com) or this GitHub repository. Decompiling, reverse engineering, bypassing anti-cheat modules, or re-uploading modified binaries under another name is strictly prohibited.
 
+
 ---
 *Developed and maintained by Team Bitmasters (2012–2026).*
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:6090EE&height=160&section=footer&text=TEAM%20BITMASTERS&fontSize=38&fontColor=ffffff&fontAlignY=65" width="100%" alt="Team Bitmasters Footer" />
+</p>
