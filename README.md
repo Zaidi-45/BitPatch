@@ -47,6 +47,17 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 
 ---
 
+<div align="center">
+  <h3>✨ Classic IGI-1 Animated Menu Restoration</h3>
+  <p><i>BitPatch natively restores the iconic Project I.G.I. animated interface inside IGI-2: Covert Strike.</i></p>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/f56f50b4-6aae-49a3-81ed-2d643a7fe31b" alt="IGI-1 Animated Menu Restoration" width="580" style="max-width: 100%; border-radius: 8px;" />
+</div>
+
+---
+
+
+
 ## 🛒 Required Game Version
 This patch is fully compatible and heavily optimized for the official [GOG.com release of I.G.I. 2: Covert Strike](https://www.gog.com/en/game/i_g_i_2_covert_strike) as well as original v1.2 retail installations. We recommend a clean, unmodified installation to avoid third-party script conflicts.
 
