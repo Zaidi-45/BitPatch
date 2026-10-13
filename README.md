@@ -24,6 +24,8 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 3. Allow Windows to overwrite existing files when prompted.
 4. Launch `igi2.exe` normally, navigate to **Multiplayer**, and servers will populate automatically via the OpenSpy master server.
 
+> 💡 **Tip:** Check live server activity, view active player counts, or join games in 1-click via the **`#server-list`** channel on our [Official Discord](https://discord.gg/dvwcbGVeyV).
+
 ---
 
 ## 🎮 Core Features
@@ -32,39 +34,6 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 - **Exploit Blocking:** Patches known trainer exploits including Invisible Mode, Fast Lockpick, Super Jump, Rapid Fire, Infinite Ammo, and Deviance.
 - **Thermal Hack Prevention:** Completely eliminates modified thermal wallhacks.
 - **Server Exploit Protection:** Mitigates Luigi Auriemma vulnerabilities (gshboom, format string attacks, fake player floods).
-
----
-
-<div align="center">
-  <h3>Server-Authoritative Exploit Mitigations</h3>
-  <p><i>Strict server-side validation: local memory tampering and trainer injections are actively dropped by the host.</i></p>
-</div>
-
-<br />
-
-<div align="center">
-  <h4>Invisible Mode Exploitation</h4>
-  <p>Neutralizes memory exploits where clients spoof spectator states to kill opponents without being seen.</p>
-  <img src="https://github.com/user-attachments/assets/2559b48f-fe04-4b0f-b7e0-ed568dd11dfe" alt="Invisible Mode Exploit" width="600" style="max-width: 100%; border-radius: 6px;" />
-</div>
-
-<br />
-
-<div align="center">
-  <h4>Thermal Vision Wallhacks</h4>
-  <p>Eliminates modified optics routines that force thermal shaders through geometry, buildings, and terrain.</p>
-  <img src="https://github.com/user-attachments/assets/58d99c42-4992-4f54-8718-77654d9ef41e" alt="Thermal Wallhack" width="600" style="max-width: 100%; border-radius: 6px;" />
-</div>
-
-<br />
-
-<div align="center">
-  <h4>Super Jump & Physics Manipulation</h4>
-  <p>Clamps airborne velocity and enforces Z-axis limits to prevent out-of-bounds map traversal.</p>
-  <img src="https://github.com/user-attachments/assets/058e9fef-264a-4eda-b06d-a0bc13d6adde" alt="Super Jump Hack" width="600" style="max-width: 100%; border-radius: 6px;" />
-</div>
-
----
 
 ### ⚙️ Anti-Crash & Stability
 - **Weapon Limit Fix:** Resolves weapon limits across all maps using an internal FIFO queue architecture ([Watch Demo Video](https://www.youtube.com/watch?v=FFVoCPwVJgg)).
@@ -78,29 +47,33 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 - **Beta Voice Lines:** Dedicated radio keybindings mapped to `Alt + T` and `Alt + I`.
 - **UI Restoration:** Restores the original animated menu system from *Project I.G.I.*
 
+> 📋 **Looking for complete patch notes?** View the full version-by-version technical changelog at [reviveigi2.com/changelog.html](https://reviveigi2.com/changelog.html).
+
 ---
 
+## 🎬 In-Game Features & Previews
+
 <div align="center">
-  <h3>✨ Classic IGI-1 Animated Menu Restoration</h3>
+  <h3>Classic IGI-1 Animated Menu Restoration</h3>
   <p><i>BitPatch natively restores the iconic Project I.G.I. animated interface inside IGI-2: Covert Strike.</i></p>
   <br/>
   <img src="https://github.com/user-attachments/assets/f56f50b4-6aae-49a3-81ed-2d643a7fe31b" alt="IGI-1 Animated Menu Restoration" width="580" style="max-width: 100%; border-radius: 8px;" />
 </div>
 
----
+<br />
 
 <div align="center">
-  <h3>🎥 Free-Camera & Third-Person Perspective</h3>
+  <h3>Free-Camera & Third-Person Perspective</h3>
   <p><i>Inspect custom maps, capture cinematic angles, and navigate freely in real time.</i></p>
   <p><b>Toggle Keybind:</b> <code>Left Alt</code> + <code>Right Alt</code></p>
   <br/>
   <img src="https://github.com/user-attachments/assets/3c5b8e10-df04-43cd-b580-176e008c13c4" alt="BitPatch Free-Cam Mode" width="580" style="max-width: 100%; border-radius: 8px;" />
 </div>
 
----
+<br />
 
 <div align="center">
-  <h3>🛠️ Technical Demonstration: Weapon Limit Fixed</h3>
+  <h3>Technical Demonstration: Weapon Limit Fixed</h3>
   <p><i>Showcasing the internal FIFO queue preventing crashes during intensive multiplayer firefights.</i></p>
   <br/>
   <a href="https://www.youtube.com/watch?v=FFVoCPwVJgg">
@@ -112,6 +85,38 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
       <img src="https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube" />
     </a>
   </p>
+</div>
+
+---
+
+## 🔒 Exploit Mitigations in Action
+
+<div align="center">
+  <p><i>Strict server-side validation: local memory tampering and trainer injections are actively dropped by the host.</i></p>
+</div>
+
+<br />
+
+<div align="center">
+  <h4>Invisible Mode Exploitation <code>BLOCKED</code></h4>
+  <p>Neutralizes memory exploits where clients spoof spectator states to kill opponents without being seen.</p>
+  <img src="https://github.com/user-attachments/assets/2559b48f-fe04-4b0f-b7e0-ed568dd11dfe" alt="Invisible Mode Exploit" width="600" style="max-width: 100%; border-radius: 6px;" />
+</div>
+
+<br />
+
+<div align="center">
+  <h4>Thermal Vision Wallhacks <code>BLOCKED</code></h4>
+  <p>Eliminates modified optics routines that force thermal shaders through geometry, buildings, and terrain.</p>
+  <img src="https://github.com/user-attachments/assets/58d99c42-4992-4f54-8718-77654d9ef41e" alt="Thermal Wallhack" width="600" style="max-width: 100%; border-radius: 6px;" />
+</div>
+
+<br />
+
+<div align="center">
+  <h4>Super Jump & Physics Manipulation <code>BLOCKED</code></h4>
+  <p>Clamps airborne velocity and enforces Z-axis limits to prevent out-of-bounds map traversal.</p>
+  <img src="https://github.com/user-attachments/assets/058e9fef-264a-4eda-b06d-a0bc13d6adde" alt="Super Jump Hack" width="600" style="max-width: 100%; border-radius: 6px;" />
 </div>
 
 ---
@@ -145,7 +150,7 @@ Looking to host a dedicated server, view live global player leaderboards, or dow
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="370">
+      <td align="center" width="400">
         <br />
         <a href="https://discord.gg/dvwcbGVeyV">
           <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="68" alt="Discord" />
@@ -153,7 +158,7 @@ Looking to host a dedicated server, view live global player leaderboards, or dow
           <b><font size="4">Join the Official Bitmasters Community</font></b>
         </a>
         <br />
-        <p>Discord · Matchmaking · Live Support</p>
+        <p>Live <code>#server-list</code> Feeds · Matchmaking · Technical Support</p>
       </td>
     </tr>
   </table>
