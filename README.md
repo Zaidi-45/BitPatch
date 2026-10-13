@@ -70,11 +70,15 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
   <h3>🛠️ Technical Demonstration: Weapon Limit Fixed</h3>
   <p><i>Showcasing the internal FIFO queue preventing crashes during intensive multiplayer firefights.</i></p>
   <br/>
-  <a href="http://www.youtube.com/watch?v=FFVoCPwVJgg" target="_blank">
-    <img src="https://img.youtube.com/vi/FFVoCPwVJgg/hqdefault.jpg" alt="Dev Diaries [1]: Weapon Limit Fixed!" width="580" style="max-width: 100%; border-radius: 8px;" />
+  <a href="https://www.youtube.com/watch?v=FFVoCPwVJgg">
+    <img src="https://github.com/user-attachments/assets/cbaae221-06fd-4306-8cef-06156c5ba3f2" alt="Dev Diaries [1]: Weapon Limit Fixed!" width="580" style="max-width: 100%; border-radius: 8px;" />
   </a>
   <br/><br/>
-  <p><sub>▶️ <a href="http://www.youtube.com/watch?v=FFVoCPwVJgg" target="_blank">Watch Dev Diary [1] on YouTube</a></sub></p>
+  <p>
+    <a href="https://www.youtube.com/watch?v=FFVoCPwVJgg">
+      <img src="https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube" />
+    </a>
+  </p>
 </div>
 
 ---
