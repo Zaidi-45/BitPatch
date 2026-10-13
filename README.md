@@ -34,7 +34,7 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 - **Server Exploit Protection:** Mitigates Luigi Auriemma vulnerabilities (gshboom, format string attacks, fake player floods).
 
 ### ⚙️ Anti-Crash & Stability
-- **Weapon Limit Fix:** Resolves weapon limits across all maps using an internal FIFO queue architecture.
+- **Weapon Limit Fix:** Resolves weapon limits across all maps using an internal FIFO queue architecture ([Watch Demo Video](http://www.youtube.com/watch?v=FFVoCPwVJgg)).
 - **Desynchronization Fixes:** Patches death animation desyncs, null pointer reads, and ghost entity cascading crashes.
 - **Server Stability:** Fixes floating-point triggers and Z-coordinate limits that crash dedicated servers.
 
@@ -56,7 +56,28 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 
 ---
 
+<div align="center">
+  <h3>🎥 Free-Camera & Third-Person Perspective</h3>
+  <p><i>Inspect custom maps, capture cinematic angles, and navigate freely in real time.</i></p>
+  <p><b>Toggle Keybind:</b> <code>Left Alt</code> + <code>Right Alt</code></p>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/3c5b8e10-df04-43cd-b580-176e008c13c4" alt="BitPatch Free-Cam Mode" width="580" style="max-width: 100%; border-radius: 8px;" />
+</div>
 
+---
+
+<div align="center">
+  <h3>🛠️ Technical Demonstration: Weapon Limit Fixed</h3>
+  <p><i>Showcasing the internal FIFO queue preventing crashes during intensive multiplayer firefights.</i></p>
+  <br/>
+  <a href="http://www.youtube.com/watch?v=FFVoCPwVJgg" target="_blank">
+    <img src="https://img.youtube.com/vi/FFVoCPwVJgg/hqdefault.jpg" alt="Dev Diaries [1]: Weapon Limit Fixed!" width="580" style="max-width: 100%; border-radius: 8px;" />
+  </a>
+  <br/><br/>
+  <p><sub>▶️ <a href="http://www.youtube.com/watch?v=FFVoCPwVJgg" target="_blank">Watch Dev Diary [1] on YouTube</a></sub></p>
+</div>
+
+---
 
 ## 🛒 Required Game Version
 This patch is fully compatible and heavily optimized for the official [GOG.com release of I.G.I. 2: Covert Strike](https://www.gog.com/en/game/i_g_i_2_covert_strike) as well as original v1.2 retail installations. We recommend a clean, unmodified installation to avoid third-party script conflicts.
@@ -81,8 +102,6 @@ Looking to host a dedicated server, view live global player leaderboards, or dow
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   </a>
 </p>
-
-<!-- Followed by your centered Discord card -->
 
 <br />
 
@@ -114,7 +133,6 @@ BitPatch binaries and configurations are proprietary freeware distributed under 
 **Legal Disclaimer:** Project I.G.I.-2: Covert Strike is the registered trademark of its respective copyright holders. BitPatch is an independent community restoration project and is not affiliated with, sponsored by, or endorsed by Innerloop Studios, Codemasters, or GOG. This repository contains no base game executable binaries or proprietary level packages. See [DISCLAIMER.md](DISCLAIMER.md) for full terms.
 
 **Attribution & Usage Policy:** You are free to utilize and reference this patch for community servers and modding initiatives. However, you **MUST** provide clear, visible credit to **Team Bitmasters** and include a direct link back to [reviveigi2.com](https://reviveigi2.com) or this GitHub repository. Decompiling, reverse engineering, bypassing anti-cheat modules, or re-uploading modified binaries under another name is strictly prohibited.
-
 
 ---
 *Developed and maintained by Team Bitmasters (2012–2026).*
