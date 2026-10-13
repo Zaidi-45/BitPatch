@@ -33,8 +33,41 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 - **Thermal Hack Prevention:** Completely eliminates modified thermal wallhacks.
 - **Server Exploit Protection:** Mitigates Luigi Auriemma vulnerabilities (gshboom, format string attacks, fake player floods).
 
+---
+
+<div align="center">
+  <h3>Server-Authoritative Exploit Mitigations</h3>
+  <p><i>Strict server-side validation: local memory tampering and trainer injections are actively dropped by the host.</i></p>
+</div>
+
+<br />
+
+<div align="center">
+  <h4>Invisible Mode Exploitation</h4>
+  <p>Neutralizes memory exploits where clients spoof spectator states to kill opponents without being seen.</p>
+  <img src="https://github.com/user-attachments/assets/2559b48f-fe04-4b0f-b7e0-ed568dd11dfe" alt="Invisible Mode Exploit" width="600" style="max-width: 100%; border-radius: 6px;" />
+</div>
+
+<br />
+
+<div align="center">
+  <h4>Thermal Vision Wallhacks</h4>
+  <p>Eliminates modified optics routines that force thermal shaders through geometry, buildings, and terrain.</p>
+  <img src="https://github.com/user-attachments/assets/58d99c42-4992-4f54-8718-77654d9ef41e" alt="Thermal Wallhack" width="600" style="max-width: 100%; border-radius: 6px;" />
+</div>
+
+<br />
+
+<div align="center">
+  <h4>Super Jump & Physics Manipulation</h4>
+  <p>Clamps airborne velocity and enforces Z-axis limits to prevent out-of-bounds map traversal.</p>
+  <img src="https://github.com/user-attachments/assets/058e9fef-264a-4eda-b06d-a0bc13d6adde" alt="Super Jump Hack" width="600" style="max-width: 100%; border-radius: 6px;" />
+</div>
+
+---
+
 ### ⚙️ Anti-Crash & Stability
-- **Weapon Limit Fix:** Resolves weapon limits across all maps using an internal FIFO queue architecture ([Watch Demo Video](http://www.youtube.com/watch?v=FFVoCPwVJgg)).
+- **Weapon Limit Fix:** Resolves weapon limits across all maps using an internal FIFO queue architecture ([Watch Demo Video](https://www.youtube.com/watch?v=FFVoCPwVJgg)).
 - **Desynchronization Fixes:** Patches death animation desyncs, null pointer reads, and ghost entity cascading crashes.
 - **Server Stability:** Fixes floating-point triggers and Z-coordinate limits that crash dedicated servers.
 
