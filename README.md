@@ -140,7 +140,7 @@ Because BitPatch uses DLL proxying (`wsock32.dll`) to intercept multiplayer sock
 ---
 
 ## 🛒 Required Game Version
-This patch is fully compatible and heavily optimized for the official [GOG.com release of I.G.I. 2: Covert Strike](https://www.gog.com/en/game/i_g_i_2_covert_strike) as well as original v1.2 retail installations. We recommend a clean, unmodified installation to avoid third-party script conflicts.
+This patch is fully compatible and heavily optimized for the official [GOG.com release of I.G.I. 2: Covert Strike](https://www.gog.com/en/game/i_g_i_2_covert_strike). We recommend a clean, unmodified installation to avoid third-party script conflicts.
 
 ---
 
