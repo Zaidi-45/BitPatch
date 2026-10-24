@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/Release-v1.0%20Latest-brightgreen.svg)](https://github.com/Zaidi-45/BitPatch/releases/latest)
 [![Website](https://img.shields.io/badge/Website-reviveigi2.com-blue.svg)](https://reviveigi2.com)
 [![Discord](https://img.shields.io/badge/Discord-Bitmasters-7289da.svg)](https://discord.gg/dvwcbGVeyV)
-[![License: Proprietary](https://img.shields.io/badge/License-Proprietary%20Freeware-red.svg)](EULA.md)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary%20Freeware-red.svg)](LICENSE.md)
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1800&color=6090EE&center=true&vCenter=true&width=600&height=60&lines=BITMASTERS%E2%84%A2;BACK+TO+NOSTALGIA" alt="Bitmasters Motto" />
@@ -25,6 +25,24 @@ Official Web Portal: [reviveigi2.com](https://reviveigi2.com)
 4. Launch `igi2.exe` normally, navigate to **Multiplayer**, and servers will populate automatically via the OpenSpy master server.
 
 > 💡 **Tip:** Check live server activity, view active player counts, or join games in 1-click via the **`#server-list`** channel on our [Official Discord](https://discord.gg/dvwcbGVeyV).
+
+### ⚠️ Antivirus & False-Positive Notice
+
+Because BitPatch uses DLL proxying (`wsock32.dll`) to intercept multiplayer sockets and deploys low-level x86 memory hooks to patch 20-year-old engine crashes, **antivirus engines flag it as a heuristic false positive** (often labeled generically as `HackTool`, `Gen:Variant.Yogi`, or `Malware.AI`).
+
+<details>
+<summary><b>Why does my antivirus flag BitPatch? (Click to expand)</b></summary>
+
+* **DLL Proxying / Sideloading:** BitPatch restores multiplayer without modifying original game files on disk. It loads alongside `igi2.exe` via Windows dynamic link library proxying (`wsock32.dll`). Security suites flag unknown custom DLL proxies by default.
+* **Engine Memory Patching:** To fix game-breaking memory corruptions (such as `0xCDCDCDCD` heap crashes, buffer overflows, and FPU stack faults), BitPatch allocates safe memory caves (`PAGE_EXECUTE_READWRITE`) and hooks game instructions in RAM.
+* **Legacy Trainer Heuristics:** The `Yogi` detection tag used by several scanners is a 20-year-old signature for *I.G.I.-2* memory trainers. Because BitPatch hooks the exact same game addresses to *block* cheats and trainers, heuristic scanners mistake the mitigation for the exploit.
+* **No Code-Signing Certificate:** BitPatch is a non-commercial, community-led freeware modification. Commercial Authenticode certificates cost hundreds of dollars annually, meaning new binary hashes must establish cloud reputation over time.
+
+**How to run BitPatch cleanly:**
+1. Check the official SHA-256 hash in our GitHub Release notes.
+2. If your browser or Windows Defender blocks the download, add an exclusion for the IGI-2 directory or select **Keep / Allow on device**.
+3. For questions or manual binary auditing, join our [Discord Community](https://discord.gg/dvwcbGVeyV).
+</details>
 
 ---
 
@@ -168,11 +186,11 @@ Looking to host a dedicated server, view live global player leaderboards, or dow
 
 ## ⚖️ License & Legal
 
-BitPatch binaries and configurations are proprietary freeware distributed under the terms of the [BitPatch End User License Agreement (EULA)](EULA.md).
+BitPatch binaries and configurations are proprietary freeware distributed under the terms of the [BitPatch End User License Agreement (EULA)](LICENSE.md).
 
 > **Note on Source Code:** BitPatch is closed source to protect the integrity of the anti-cheat verification routines and maintain fair multiplayer server environments.
 
-**Legal Disclaimer:** Project I.G.I.-2: Covert Strike is the registered trademark of its respective copyright holders. BitPatch is an independent community restoration project and is not affiliated with, sponsored by, or endorsed by Innerloop Studios, Codemasters, or GOG. This repository contains no base game executable binaries or proprietary level packages. See [DISCLAIMER.md](DISCLAIMER.md) for full terms.
+**Legal Disclaimer:** Project I.G.I.-2: Covert Strike is the registered trademark of its respective copyright holders. BitPatch is an independent community restoration project and is not affiliated with, sponsored by, or endorsed by Innerloop Studios, Codemasters, or GOG. This repository contains no base game executable binaries or proprietary level packages.
 
 **Attribution & Usage Policy:** You are free to utilize and reference this patch for community servers and modding initiatives. However, you **MUST** provide clear, visible credit to **Team Bitmasters** and include a direct link back to [reviveigi2.com](https://reviveigi2.com) or this GitHub repository. Decompiling, reverse engineering, bypassing anti-cheat modules, or re-uploading modified binaries under another name is strictly prohibited.
 
